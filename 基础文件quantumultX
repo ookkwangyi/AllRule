@@ -1,0 +1,199 @@
+#WY
+
+[general]
+
+[dns]
+no-ipv6
+server=192.168.1.1
+server=8.8.8.8
+server=8.8.4.4
+server=223.5.5.5
+server=114.114.114.114
+server=119.29.29.29
+server=119.28.28.28
+server=223.6.6.6
+server=1.2.4.8
+server=8.8.8.8
+server=1.2.4.8
+server=/*.taobao.com/223.5.5.5
+server=/*.tmall.com/223.5.5.5
+server=/*.alipay.com/223.5.5.5
+server=/*.alicdn.com/223.5.5.5
+server=/*.aliyun.com/223.5.5.5
+server=/*.jd.com/119.28.28.28
+server=/*.qq.com/119.28.28.28
+server=/*.tencent.com/119.28.28.28
+server=/*.weixin.com/119.28.28.28
+server=/*.bilibili.com/119.29.29.29
+server=/hdslb.com/119.29.29.29
+server=/*.126.com/119.29.29.29
+server=/*.126.net/119.29.29.29
+server=/*.127.net/119.29.29.29
+server=/*.netease.com/119.29.29.29
+server=/*.mi.com/119.29.29.29
+server=/*.xiaomi.com/119.29.29.29
+address=/mtalk.google.com/108.177.125.188
+
+
+[policy]
+# 其中 Apple Update 为屏蔽iOS系统更新的策略组，默认保持直连，如有需要屏蔽，请在面板自行切换至REJECT； CMedia 策略组为中国媒体（包括A站、B站、爱奇艺等）；GMedia 为国际媒体（包括HULU、HBO等）；Outside 指定访问境外网站时的策略或节点；Mainland 控制访问大陆网站时的策略；Others 为其他规则，若前边的规则都没有被匹配到，则听从此策略组的规定。
+static=AdBlock,proxy, reject, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/AdBlock.png
+static=Apple Update, direct, reject, Outside, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple_Update.png
+static=Apple, direct, Outside, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Apple.png
+static=Netease Music, direct, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music_Unlock.png
+static=CMedia, direct, proxy, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/CMedia.png
+static=TikTok, proxy, Outside, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/TikTok.png
+static=GMedia, proxy, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/GMedia.png
+static=Netflix, proxy, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Netflix.png
+static=Spotify, proxy,direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Spotify.png
+static=YouTube, proxy,direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/YouTube.png
+static=Telegram, proxy, direct, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram_X.png
+static=Microsoft, direct,img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Microsoft.png
+static=PayPal, proxy, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/PayPal.png
+static=Outside, proxy, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Outside.png
+static=Mainland, direct, proxy, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Mainland.png
+static=Speedtest, proxy, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Speedtest.png
+static=Others, proxy, direct, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Others.png
+static=91, proxy, 🇭🇰 香港家宽, US-CN2-01, img-url=https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/IconSet/Others.png
+
+
+[server_local]
+vmess=a293118ea8b2341c3.awsglobalaccelerator.com:80, method=aes-128-gcm, password=98b61d46-a673-487f-93fd-5b066632199f, obfs=ws, obfs-host=a293118ea8b2341c3.awsglobalaccelerator.com, obfs-uri=/, fast-open=false, udp-relay=false, tag=🇸🇬狮城游戏01专线
+
+http=hk-cn2.ghelper.net:7700, username=8b317dbe-cce9-11ea-82ef-f23c9164ca5d, password=27edc0819ee36312ded94af92794ea70, over-tls=true, tls-host=hk-cn2.ghelper.net, tls-verification=false, fast-open=false, udp-relay=false, tag=香港CN2-400
+http=cn2-hk.stunnel.vip:4800, username=8b317dbe-cce9-11ea-82ef-f23c9164ca5d, password=27edc0819ee36312ded94af92794ea70, over-tls=true, tls-host=cn2-hk.stunnel.vip, tls-verification=false, fast-open=false, udp-relay=false, tag=香港CN2-500
+http=cm-hk.stunnel.vip:4700, username=8b317dbe-cce9-11ea-82ef-f23c9164ca5d, password=27edc0819ee36312ded94af92794ea70, over-tls=true, tls-host=cm-hk.stunnel.vip, tls-verification=false, fast-open=false, udp-relay=false, tag=HK-Classic-BGP.
+vmess=hk.tcpbbr.net:8388, method=aes-128-gcm, password=8b317dbe-cce9-11ea-82ef-f23c9164ca5d, obfs=over-tls, obfs-host=hk.tcpbbr.net, tls-verification=true, fast-open=false, udp-relay=false, tag=香港综合
+vmess=hkbn.tcpbbr.net:443, method=aes-128-gcm, password=8b317dbe-cce9-11ea-82ef-f23c9164ca5d, obfs=over-tls, obfs-host=hkbn.tcpbbr.net, tls-verification=true, fast-open=false, udp-relay=false, tag=香港HKBN
+vmess=hkbn2.tcpbbr.net:443, method=aes-128-gcm, password=8b317dbe-cce9-11ea-82ef-f23c9164ca5d, obfs=over-tls, obfs-host=hkbn2.tcpbbr.net, tls-verification=true, fast-open=false, udp-relay=false, tag=香港家宽
+http=us-cn2-02.ghelper.net:443, username=8b317dbe-cce9-11ea-82ef-f23c9164ca5d, password=27edc0819ee36312ded94af92794ea70, over-tls=true, tls-host=us-cn2-02.ghelper.net, tls-verification=false, fast-open=false, udp-relay=false, tag=US-CN2-02local
+# 本地服务器部分
+; 自行添加即可
+
+
+[server_remote]
+# 节点远程订阅，自行添加
+
+
+[filter_remote]
+https://raw.githubusercontent.com/ookkwangyi/AllRule/main/Rule/AdBlock.list, tag=AdBlock (广告拦截), update-interval=86400, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/ookkwangyi/AllRule/main/Rule/Apple.list, tag=Apple (苹果服务), enabled=true
+https://raw.githubusercontent.com/ookkwangyi/AllRule/main/Rule/CMedia.list, tag=CMedia (大陆流媒体), enabled=true
+https://raw.githubusercontent.com/ookkwangyi/AllRule/main/Rule/Netflix.list, tag=Netflix (网飞影视), enabled=true
+https://raw.githubusercontent.com/ookkwangyi/AllRule/main/Rule/Spotify.list, tag=Spotify (声田音乐), enabled=true
+https://raw.githubusercontent.com/ookkwangyi/AllRule/main/Rule/YouTube.list, tag=YouTube (油管), enabled=true
+https://raw.githubusercontent.com/ookkwangyi/AllRule/main/Rule/GMedia.list, tag=GMedia (境外流媒体), enabled=true
+https://raw.githubusercontent.com/ookkwangyi/AllRule/main/Rule/Telegram.list, tag=Telegram (电报代理), enabled=true
+https://raw.githubusercontent.com/ookkwangyi/AllRule/main/Rule/Microsoft.list, tag=Microsoft (微软服务), enabled=true
+https://raw.githubusercontent.com/ookkwangyi/AllRule/main/Rule/Speedtest.list, tag=Speedtest (网速测试), enabled=true
+https://raw.githubusercontent.com/ookkwangyi/AllRule/main/Rule/Outside.list, tag=Outside (境外网站), enabled=true
+https://raw.githubusercontent.com/ookkwangyi/AllRule/main/Rule/Mainland.list, tag=Mainland (大陆网站), enabled=true
+
+[filter_local]
+host-suffix, umeng.com, proxy
+host-suffix, bytecdn.com, proxy
+host-suffix, byteimg.com, proxy
+host-suffix, snssdk.com, proxy
+host-suffix, icloud.com.cn, direct
+host-suffix, bcp.crwdcntrl.net, proxy
+host-suffix, data.flurry.com, proxy
+geoip, us, proxy
+host-suffix, cn, direct
+host-suffix, mtalk.google.com, proxy
+host-suffix, clients4.google.com, proxy
+host-suffix, www.google.com, proxy
+host-suffix, content-autofill.googleapis.com, proxy
+host-suffix, pstatp.com, proxy
+host-suffix, activation.crossutility.com, direct
+user-agent, mellowme*, direct
+# > Netflix
+USER-AGENT,Argo*,Netflix
+DOMAIN-SUFFIX,fast.com,Netflix
+DOMAIN-SUFFIX,netflix.com,Netflix
+DOMAIN-SUFFIX,netflix.net,Netflix
+DOMAIN-SUFFIX,nflxext.com,Netflix
+DOMAIN-SUFFIX,nflximg.com,Netflix
+DOMAIN-SUFFIX,nflximg.net,Netflix
+DOMAIN-SUFFIX,nflxso.net,Netflix
+DOMAIN-SUFFIX,nflxvideo.net,Netflix
+DOMAIN-SUFFIX,netflixdnstest0.com,Netflix
+DOMAIN-SUFFIX,netflixdnstest1.com,Netflix
+DOMAIN-SUFFIX,netflixdnstest2.com,Netflix
+DOMAIN-SUFFIX,netflixdnstest3.com,Netflix
+DOMAIN-SUFFIX,netflixdnstest4.com,Netflix
+DOMAIN-SUFFIX,netflixdnstest5.com,Netflix
+DOMAIN-SUFFIX,netflixdnstest6.com,Netflix
+DOMAIN-SUFFIX,netflixdnstest7.com,Netflix
+DOMAIN-SUFFIX,netflixdnstest8.com,Netflix
+DOMAIN-SUFFIX,netflixdnstest9.com,Netflix
+IP-CIDR,23.246.0.0/18,Netflix
+IP-CIDR,37.77.184.0/21,Netflix
+IP-CIDR,45.57.0.0/17,Netflix
+IP-CIDR,64.120.128.0/17,Netflix
+IP-CIDR,66.197.128.0/17,Netflix
+IP-CIDR,108.175.32.0/20,Netflix
+IP-CIDR,192.173.64.0/18,Netflix
+IP-CIDR,198.38.96.0/19,Netflix
+IP-CIDR,198.45.48.0/20,Netflix
+#(Porn)
+# > Pornhub
+host-keyword, porn, proxy
+host-suffix, phncdn.com, proxy
+DOMAIN-SUFFIX,phprcdn.com,proxy
+host-suffix, pornhub.com, proxy
+host-suffix, cn.phncdn.com, proxy
+host-suffix, pornhubpremium.com, proxy
+host-suffix, cn.pornhubpremium.com, proxy
+host-suffix, t66y.com, proxy
+host-keyword, t66y, proxy
+host-suffix, xvideos.com, proxy
+
+#(91Porn)
+host-suffix, 91porn.com, proxy
+host-suffix, dtscout.com, proxy
+host-suffix, cfdc.91p52.com, proxy
+host-suffix, img.91p52.com, proxy
+host-suffix, 91p52.com, proxy
+host-suffix, graph.instagram.com, proxy
+host-keyword, instagram, proxy
+# 本地分流规则(相同规则下，本地规则将覆盖远程规则，优先生效)
+# 绕过企业证书过期
+host, ocsp.apple.com, direct
+
+# 屏蔽系统更新
+host, ns.itunes.apple.com, Apple Update
+host, appldnld.apple.com, Apple Update
+host, mesu.apple.com, Apple Update
+host, xp.apple.com, Apple Update
+host, gdmf.apple.com, Apple Update
+
+# 避免迅雷版权问题
+host, hub5btmain.v6.shub.sandai.net, proxy
+
+# 其他
+host-suffix, local, direct
+host-keyword, merlinblog, proxy
+ip-cidr, 10.0.0.0/8, direct
+ip-cidr, 17.0.0.0/8, direct
+ip-cidr, 100.64.0.0/10, direct
+ip-cidr, 127.0.0.0/8, direct
+ip-cidr, 172.16.0.0/12, direct
+ip-cidr, 192.168.0.0/16, direct
+geoip, cn, direct
+final, Others
+
+[rewrite_remote]
+# rewrite 复写远程订阅
+https://raw.githubusercontent.com/Orz-3/QuantumultX/master/YouTube.conf, tag=YouTube去广告, update-interval=86400, opt-parser=false, enabled=true
+
+[rewrite_local]
+# 本地复写规则
+
+[task_local]
+#此处为自动执行的任务
+
+[mitm]
+passphrase = 49363574
+p12 = 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
+# 以下为证书&主机名部分
+
