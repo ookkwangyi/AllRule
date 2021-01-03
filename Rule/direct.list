@@ -1,3 +1,9 @@
+# >字节系
+HOST-SUFFIX,toutiao.com,direct
+HOST-SUFFIX,snssdk.com,direct
+HOST-SUFFIX,byteimg.com,direct
+HOST-SUFFIX,pstatp.com,direct
+HOST-SUFFIX,ixigua.com,direct
 # > AcFun
 USER-AGENT,AcFun*,direct
 HOST-SUFFIX,acfun.cn,direct
