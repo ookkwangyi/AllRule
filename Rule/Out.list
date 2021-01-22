@@ -6,9 +6,6 @@ USER-AGENT,Instagram*,proxy
 USER-AGENT,Resilio Sync*,proxy
 USER-AGENT,WhatsApp*,proxy
 
-# > Google Voice
-HOST,voice.telephony.goog,proxy
-
 # > Line
 HOST-SUFFIX,lin.ee,proxy
 HOST-SUFFIX,line.me,proxy
@@ -1006,11 +1003,23 @@ HOST-SUFFIX,viu.com,proxy
 HOST-SUFFIX,viu.tv,proxy
 HOST-SUFFIX,viu.now.com,proxy
 
+# > Google Voice
+HOST,voice.telephony.goog,proxy
+
 # > Youtube Music
 USER-AGENT,*YouTubeMusic*,proxy
 USER-AGENT,*com.google.ios.youtubemusic*,proxy
 
+# > Google Drive
+USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*,proxy
+USER-AGENT,Google.Drive*,proxy
+USER-AGENT,*com.google.Drive*,proxy
+DOMAIN-SUFFIX,docs.google.com,proxy
+DOMAIN-SUFFIX,drive.google.com,proxy
+DOMAIN-SUFFIX,googledrive.com,proxy
+DOMAIN-SUFFIX,googleusercontent.com,proxy
 # > Youtube
+
 USER-AGENT,*youtube*,proxy
 USER-AGENT,YouTube*,proxy
 HOST-KEYWORD,youtube,proxy
