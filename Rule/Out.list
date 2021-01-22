@@ -1,3 +1,14 @@
+# > Twitter
+HOST-SUFFIX,pscp.tv,proxy
+HOST-SUFFIX,periscope.tv,proxy
+HOST-SUFFIX,t.co,proxy
+HOST-SUFFIX,twimg.co,proxy
+HOST-SUFFIX,twimg.com,proxy
+HOST-SUFFIX,twitpic.com,proxy
+HOST-SUFFIX,twitter.com,proxy
+HOST-SUFFIX,twitter.jp,proxy
+HOST-SUFFIX,vine.co,proxy
+
 # > UA
 USER-AGENT,%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5*,proxy
 USER-AGENT,AwemeI18n*,proxy
@@ -14,6 +25,14 @@ HOST-SUFFIX,line-apps.com,proxy
 HOST-SUFFIX,line-cdn.net,proxy
 HOST-SUFFIX,line-scdn.net,proxy
 HOST-SUFFIX,nhncorp.jp,proxy
+HOST-SUFFIX,line.me,PROXY
+HOST-SUFFIX,line-apps.com,PROXY
+HOST-SUFFIX,line-scdn.net,PROXY
+HOST-SUFFIX,naver.jp,PROXY
+IP-CIDR,103.2.30.0/23,PROXY
+IP-CIDR,125.209.208.0/20,PROXY
+IP-CIDR,147.92.128.0/17,PROXY
+IP-CIDR,203.104.144.0/21,PROXY
 
 # > Microsoft Proxy
 USER-AGENT,OneDrive*,proxy
@@ -732,6 +751,24 @@ IP-CIDR,54.230.156.0/22,proxy
 IP-CIDR,54.93.0.0/16,proxy
 
 # > Facebook
+# > Facebook
+HOST-SUFFIX,cdninstagram.com,PROXY
+HOST-SUFFIX,facebook.com,PROXY
+HOST-SUFFIX,facebook.net,PROXY
+HOST-SUFFIX,fb.com,PROXY
+HOST-SUFFIX,fb.me,PROXY
+HOST-SUFFIX,fbaddins.com,PROXY
+HOST-SUFFIX,fbcdn.net,PROXY
+HOST-SUFFIX,fbsbx.com,PROXY
+HOST-SUFFIX,fbworkmail.com,PROXY
+HOST-SUFFIX,instagram.com,PROXY
+HOST-SUFFIX,m.me,PROXY
+HOST-SUFFIX,messenger.com,PROXY
+HOST-SUFFIX,oculus.com,PROXY
+HOST-SUFFIX,oculuscdn.com,PROXY
+HOST-SUFFIX,rocksdb.org,PROXY
+HOST-SUFFIX,whatsapp.com,PROXY
+HOST-SUFFIX,whatsapp.net,PROXY
 IP-CIDR,103.4.96.0/22,proxy
 IP-CIDR,129.134.0.0/17,proxy
 IP-CIDR,157.240.0.0/17,proxy
@@ -1014,10 +1051,10 @@ USER-AGENT,*com.google.ios.youtubemusic*,proxy
 USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*,proxy
 USER-AGENT,Google.Drive*,proxy
 USER-AGENT,*com.google.Drive*,proxy
-DOMAIN-SUFFIX,docs.google.com,proxy
-DOMAIN-SUFFIX,drive.google.com,proxy
-DOMAIN-SUFFIX,googledrive.com,proxy
-DOMAIN-SUFFIX,googleusercontent.com,proxy
+HOST-SUFFIX,docs.google.com,proxy
+HOST-SUFFIX,drive.google.com,proxy
+HOST-SUFFIX,googledrive.com,proxy
+HOST-SUFFIX,googleusercontent.com,proxy
 # > Youtube
 
 USER-AGENT,*youtube*,proxy
