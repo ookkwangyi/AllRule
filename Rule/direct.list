@@ -1,3 +1,27 @@
+# > Alibaba
+USER-AGENT,%E4%BC%98%E9%85%B7*,DIRECT
+HOST-SUFFIX,alibaba.com,DIRECT
+HOST-SUFFIX,alibabausercontent.com,DIRECT
+HOST-SUFFIX,alicdn.com,DIRECT
+HOST-SUFFIX,alikunlun.com,DIRECT
+HOST-SUFFIX,alipay.com,DIRECT
+HOST-SUFFIX,amap.com,DIRECT
+HOST-SUFFIX,autonavi.com,DIRECT
+HOST-SUFFIX,dingtalk.com,DIRECT
+HOST-SUFFIXX,mxhichina.com,DIRECT
+HOST-SUFFIX,soku.com,DIRECT
+HOST-SUFFIX,taobao.com,DIRECT
+HOST-SUFFIX,tmall.com,DIRECT
+HOST-SUFFIX,tmall.hk,DIRECT
+HOST-SUFFIX,ykimg.com,DIRECT
+HOST-SUFFIX,youku.com,DIRECT
+HOST-SUFFIX,xiami.com,DIRECT
+HOST-SUFFIX,xiami.net,DIRECT
+
+# Tencent
+IP-CIDR,119.28.28.28/32,DIRECT
+IP-CIDR,182.254.116.0/24,DIRECT
+
 # >字节系
 HOST-SUFFIX,toutiao.com,direct
 HOST-SUFFIX,snssdk.com,direct
@@ -7,6 +31,7 @@ HOST-SUFFIX,ixigua.com,direct
 HOST-SUFFIX,bytecdn.com,direct
 HOST-SUFFIX,douyinvod.com,direct
 HOST-KEYWORD,douyin,direct
+
 # > AcFun
 USER-AGENT,AcFun*,direct
 HOST-SUFFIX,acfun.cn,direct
