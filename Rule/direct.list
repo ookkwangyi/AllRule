@@ -1,3 +1,97 @@
+# > Sina
+HOST-SUFFIX,sina.com,DIRECT
+HOST-SUFFIX,weibo.com,DIRECT
+HOST-SUFFIX,weibocdn.com,DIRECT
+# > Sohu
+HOST-SUFFIX,sohu.com,DIRECT
+HOST-SUFFIX,sohucs.com,DIRECT
+HOST-SUFFIX,sohu-inc.com,DIRECT
+HOST-SUFFIX,v-56.com,DIRECT
+# > Sogo
+HOST-SUFFIX,sogo.com,DIRECT
+HOST-SUFFIX,sogou.com,DIRECT
+HOST-SUFFIX,sogoucdn.com,DIRECT
+# > Steam
+HOST-SUFFIX,steamcontent.com,DIRECT
+HOST-SUFFIX,steampowered.com,DIRECT
+HOST-SUFFIX,steamstatic.com,DIRECT
+# > Tencent
+USER-AGENT,MicroMessenger%20Client,DIRECT
+USER-AGENT,WeChat*,DIRECT
+USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*,DIRECT
+HOST-SUFFIX,gtimg.com,DIRECT
+HOST-SUFFIX,idqqimg.com,DIRECT
+HOST-SUFFIX,igamecj.com,DIRECT
+HOST-SUFFIX,myapp.com,DIRECT
+HOST-SUFFIX,myqcloud.com,DIRECT
+HOST-SUFFIX,qq.com,DIRECT
+HOST-SUFFIX,qqmail.com,DIRECT
+HOST-SUFFIX,servicewechat.com,DIRECT
+HOST-SUFFIX,tencent.com,DIRECT
+HOST-SUFFIX,tencent-cloud.net,DIRECT
+HOST-SUFFIX,tenpay.com,DIRECT
+HOST-SUFFIX,wechat.com,DIRECT
+DOMAIN,file-igamecj.akamaized.net,DIRECT
+
+# > HunanTV
+HOST-SUFFIX,hitv.com,DIRECT
+HOST-SUFFIX,mgtv.com,DIRECT
+
+# > iQiyi
+HOST-SUFFIX,iqiyi.com,DIRECT
+HOST-SUFFIX,iqiyipic.com,DIRECT
+HOST-SUFFIX,71.am,DIRECT
+
+# > JD
+HOST-SUFFIX,jd.com,DIRECT
+HOST-SUFFIX,jd.hk,DIRECT
+HOST-SUFFIX,jdpay.com,DIRECT
+HOST-SUFFIX,360buyimg.com,DIRECT
+
+# > Kingsoft
+HOST-SUFFIX,iciba.com,DIRECT
+HOST-SUFFIX,ksosoft.com,DIRECT
+
+# > Meitu
+HOST-SUFFIX,meitu.com,DIRECT
+HOST-SUFFIX,meitudata.com,DIRECT
+HOST-SUFFIX,meitustat.com,DIRECT
+HOST-SUFFIX,meipai.com,DIRECT
+
+# > Meituan
+HOST-SUFFIX,dianping.com,DIRECT
+HOST-SUFFIX,dpfile.com,DIRECT
+HOST-SUFFIX,meituan.com,DIRECT
+HOST-SUFFIX,meituan.net,DIRECT
+
+# > MI
+HOST-SUFFIX,duokan.com,DIRECT
+HOST-SUFFIX,mi.com,DIRECT
+HOST-SUFFIX,mi-img.com,DIRECT
+HOST-SUFFIX,miui.com,DIRECT
+HOST-SUFFIX,miwifi.com,DIRECT
+HOST-SUFFIX,xiaomi.com,DIRECT
+HOST-SUFFIX,xiaomi.net,DIRECT
+
+# > CCTV
+HOST-SUFFIX,cctv.com,DIRECT
+HOST-SUFFIX,cctvpic.com,DIRECT
+HOST-SUFFIX,livechina.com,DIRECT
+
+# > DiDi
+HOST-SUFFIX,didialift.com,DIRECT
+HOST-SUFFIX,didiglobal.com,DIRECT
+HOST-SUFFIX,udache.com,DIRECT
+
+# > Baidu
+HOST-SUFFIX,baidu.com,DIRECT
+HOST-SUFFIX,baidubcr.com,DIRECT
+HOST-SUFFIX,baidupan.com,DIRECT
+HOST-SUFFIX,baidupcs.com,DIRECT
+HOST-SUFFIX,bdimg.com,DIRECT
+HOST-SUFFIX,bdstatic.com,DIRECT
+HOST-SUFFIX,yunjiasu-cdn.net,DIRECT
+
 # > Alibaba
 USER-AGENT,%E4%BC%98%E9%85%B7*,DIRECT
 HOST-SUFFIX,alibaba.com,DIRECT
@@ -31,6 +125,8 @@ HOST-SUFFIX,ixigua.com,direct
 HOST-SUFFIX,bytecdn.com,direct
 HOST-SUFFIX,douyinvod.com,direct
 HOST-KEYWORD,douyin,direct
+HOST-SUFFIX,feiliao.com,DIRECT
+HOST-SUFFIX,iesdouyin.com,DIRECT
 
 # > AcFun
 USER-AGENT,AcFun*,direct
@@ -498,7 +594,126 @@ HOST-SUFFIX,zmz002.com,direct
 HOST-SUFFIX,cn,direct
 IP-CIDR,1.255.62.0/24,direct
 
-# GEOIP 
-GEOIP,CN,direct
+#Other
+HOST-SUFFIX,115.com,DIRECT
+HOST-SUFFIX,360in.com,DIRECT
+HOST-SUFFIX,51ym.me,DIRECT
+HOST-SUFFIX,8686c.com,DIRECT
+HOST-SUFFIX,99.com,DIRECT
+HOST-SUFFIX,abchina.com,DIRECT
+HOST-SUFFIX,accuweather.com,DIRECT
+HOST-SUFFIX,aicoinstorge.com,DIRECT
+HOST-SUFFIX,air-matters.com,DIRECT
+HOST-SUFFIX,air-matters.io,DIRECT
+HOST-SUFFIX,aixifan.com,DIRECT
+HOST-SUFFIX,amd.com,DIRECT
+HOST-SUFFIX,b612.net,DIRECT
+HOST-SUFFIX,bdatu.com,DIRECT
+HOST-SUFFIX,beitaichufang.com,DIRECT
+HOST-SUFFIX,booking.com,DIRECT
+HOST-SUFFIX,bstatic.com,DIRECT
+HOST-SUFFIX,cailianpress.com,DIRECT
+HOST-SUFFIX,camera360.com,DIRECT
+HOST-SUFFIX,chaoxing.com,DIRECT
+HOST-SUFFIX,chaoxing.com,DIRECT
+HOST-SUFFIX,chinaso.com,DIRECT
+HOST-SUFFIX,chuimg.com,DIRECT
+HOST-SUFFIX,chunyu.mobi,DIRECT
+HOST-SUFFIX,cmbchina.com,DIRECT
+HOST-SUFFIX,cmbimg.com,DIRECT
+HOST-SUFFIX,ctrip.com,DIRECT
+HOST-SUFFIX,dfcfw.com,DIRECT
+HOST-SUFFIX,dji.net,DIRECT
+HOST-SUFFIX,docschina.org,DIRECT
+HOST-SUFFIX,douban.com,DIRECT
+HOST-SUFFIX,doubanio.com,DIRECT
+HOST-SUFFIX,douyu.com,DIRECT
+HOST-SUFFIX,dxycdn.com,DIRECT
+HOST-SUFFIX,dytt8.net,DIRECT
+HOST-SUFFIX,eastmoney.com,DIRECT
+HOST-SUFFIX,eudic.net,DIRECT
+HOST-SUFFIX,feng.com,DIRECT
+HOST-SUFFIX,fengkongcloud.com,DIRECT
+HOST-SUFFIX,frdic.com,DIRECT
+HOST-SUFFIX,futu5.com,DIRECT
+HOST-SUFFIX,futunn.com,DIRECT
+HOST-SUFFIX,gandi.net,DIRECT
+HOST-SUFFIX,gcores.com,DIRECT
+HOST-SUFFIX,geilicdn.com,DIRECT
+HOST-SUFFIX,getpricetag.com,DIRECT
+HOST-SUFFIX,gifshow.com,DIRECT
+HOST-SUFFIX,godic.net,DIRECT
+HOST-SUFFIX,hicloud.com,DIRECT
+HOST-SUFFIX,hongxiu.com,DIRECT
+HOST-SUFFIX,hostbuf.com,DIRECT
+HOST-SUFFIX,huxiucdn.com,DIRECT
+HOST-SUFFIX,huya.com,DIRECT
+HOST-SUFFIX,ibm.com,DIRECT
+HOST-SUFFIX,infinitynewtab.com,DIRECT
+HOST-SUFFIX,ithome.com,DIRECT
+HOST-SUFFIX,java.com,DIRECT
+HOST-SUFFIX,jianguoyun.com,DIRECT
+HOST-SUFFIX,jianshu.com,DIRECT
+HOST-SUFFIX,jianshu.io,DIRECT
+HOST-SUFFIX,jidian.im,DIRECT
+HOST-SUFFIX,kaiyanapp.com,DIRECT
+HOST-SUFFIX,kaspersky-labs.com,DIRECT
+HOST-SUFFIX,keepcdn.com,DIRECT
+HOST-SUFFIX,kkmh.com,DIRECT
+HOST-SUFFIX,lanzous.com,DIRECT
+HOST-SUFFIX,licdn.com,DIRECT
+HOST-SUFFIX,linkedin.com,DIRECT
+HOST-SUFFIX,luojilab.com,DIRECT
+HOST-SUFFIX,maoyan.com,DIRECT
+HOST-SUFFIX,maoyun.tv,DIRECT
+HOST-SUFFIX,mls-cdn.com,DIRECT
+HOST-SUFFIX,mobike.com,DIRECT
+HOST-SUFFIX,moke.com,DIRECT
+HOST-SUFFIX,mubu.com,DIRECT
+HOST-SUFFIX,myzaker.com,DIRECT
+HOST-SUFFIX,nim-lang-cn.org,DIRECT
+HOST-SUFFIX,nvidia.com,DIRECT
+HOST-SUFFIX,oracle.com,DIRECT
+HOST-SUFFIX,originlab.com,DIRECT
+HOST-SUFFIX,plex.tv,DIRECT
+HOST-SUFFIX,qdaily.com,DIRECT
+HOST-SUFFIX,qidian.com,DIRECT
+HOST-SUFFIX,qyer.com,DIRECT
+HOST-SUFFIX,qyerstatic.com,DIRECT
+HOST-SUFFIX,raychase.net,DIRECT
+HOST-SUFFIX,ronghub.com,DIRECT
+HOST-SUFFIX,ruguoapp.com,DIRECT
+HOST-SUFFIX,sankuai.com,DIRECT
+HOST-SUFFIX,scomper.me,DIRECT
+HOST-SUFFIX,seafile.com,DIRECT
+HOST-SUFFIX,sm.ms,DIRECT
+HOST-SUFFIX,smzdm.com,DIRECT
+HOST-SUFFIX,snapdrop.net,DIRECT
+HOST-SUFFIX,snwx.com,DIRECT
+HOST-SUFFIX,s-reader.com,DIRECT
+HOST-SUFFIX,sspai.com,DIRECT
+HOST-SUFFIX,subhd.tv,DIRECT
+HOST-SUFFIX,takungpao.com,DIRECT
+HOST-SUFFIX,teamviewer.com,DIRECT
+HOST-SUFFIX,tianyancha.com,DIRECT
+HOST-SUFFIX,tophub.today,DIRECT
+HOST-SUFFIX,udacity.com,DIRECT
+HOST-SUFFIX,uning.com,DIRECT
+HOST-SUFFIX,weather.com,DIRECT
+HOST-SUFFIX,weico.cc,DIRECT
+HOST-SUFFIX,weidian.com,DIRECT
+HOST-SUFFIX,xiachufang.com,DIRECT
+HOST-SUFFIX,xiaoka.tv,DIRECT
+HOST-SUFFIX,ximalaya.com,DIRECT
+HOST-SUFFIX,xinhuanet.com,DIRECT
+HOST-SUFFIX,xmcdn.com,DIRECT
+HOST-SUFFIX,yangkeduo.com,DIRECT
+HOST-SUFFIX,yizhibo.com,DIRECT
+HOST-SUFFIX,zhangzishi.cc,DIRECT
+HOST-SUFFIX,zhihu.com,DIRECT
+HOST-SUFFIX,zhihuishu.com,DIRECT
+HOST-SUFFIX,zhimg.com,DIRECT
+HOST-SUFFIX,zhuihd.com,DIRECT
+
 
 
