@@ -102,7 +102,6 @@ HOST-SUFFIX,alipay.com,DIRECT
 HOST-SUFFIX,amap.com,DIRECT
 HOST-SUFFIX,autonavi.com,DIRECT
 HOST-SUFFIX,dingtalk.com,DIRECT
-HOST-SUFFIX,mxhichina.com,DIRECT
 HOST-SUFFIX,soku.com,DIRECT
 HOST-SUFFIX,taobao.com,DIRECT
 HOST-SUFFIX,tmall.com,DIRECT
@@ -477,7 +476,6 @@ HOST-SUFFIX,miwifi.com,direct
 HOST-SUFFIX,mob.com,direct
 HOST-SUFFIX,moji.com,direct
 HOST-SUFFIX,moke.com,direct
-HOST-SUFFIX,mxhichina.com,direct
 HOST-SUFFIX,myqcloud.com,direct
 HOST-SUFFIX,myunlu.com,direct
 HOST-SUFFIX,ngabbs.com,direct
@@ -714,6 +712,3 @@ HOST-SUFFIX,zhihu.com,DIRECT
 HOST-SUFFIX,zhihuishu.com,DIRECT
 HOST-SUFFIX,zhimg.com,DIRECT
 HOST-SUFFIX,zhuihd.com,DIRECT
-
-
-
