@@ -1,3 +1,24 @@
+# Porn
+# > Pornhub
+host-keyword, porn, proxy
+host-suffix, phncdn.com, proxy
+HOST-SUFFIX,phprcdn.com,proxy
+host-suffix, pornhub.com, proxy
+host-suffix, cn.phncdn.com, proxy
+host-suffix, pornhubpremium.com, proxy
+host-suffix, cn.pornhubpremium.com, proxy
+host-suffix, t66y.com, proxy
+host-keyword, t66y, proxy
+host-suffix, xvideos.com, proxy
+
+# > 91Porn
+host-suffix, 91porn.com, proxy
+host-suffix, dtscout.com, proxy
+host-suffix, cfdc.91p52.com, proxy
+host-suffix, img.91p52.com, proxy
+host-suffix, 91p52.com, proxy
+host-suffix, graph.instagram.com, proxy
+
 # > Twitter
 HOST-SUFFIX,pscp.tv,proxy
 HOST-SUFFIX,periscope.tv,proxy
